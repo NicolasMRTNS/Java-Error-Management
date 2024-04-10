@@ -5,6 +5,9 @@ import java.util.Date;
 import lombok.Getter;
 import lombok.Setter;
 
+/**
+ * This ErrorEnvelope is what is sent when an exception is caught by the ControllerAdvice.
+ */
 @Getter
 @Setter
 public class ErrorEnvelope {
