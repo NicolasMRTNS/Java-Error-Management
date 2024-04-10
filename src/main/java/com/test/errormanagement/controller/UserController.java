@@ -4,19 +4,22 @@ import org.springframework.context.annotation.Lazy;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.test.errormanagement.core.entity.User;
+import com.test.errormanagement.core.bean.UserBean;
+import com.test.errormanagement.core.mapper.UserMapper;
 import com.test.errormanagement.service.UserService;
 import com.test.errormanagement.constant.UrlConstant;
 
-@RestController(UrlConstant.USER_URL)
+@RequestMapping(UrlConstant.USER_URL)
 public class UserController {
     @Lazy
     private UserService userService;
 
+    private UserMapper userMapper;
+
     @GetMapping
-    public ResponseEntity<User> getUser(@RequestBody String username) {
-        return ResponseEntity.ok(userService.get(username));
+    public ResponseEntity<UserBean> getUser(@RequestBody String username) {
+        return ResponseEntity.ok(userMapper.toBean(userService.get(username)));
     }
 }
