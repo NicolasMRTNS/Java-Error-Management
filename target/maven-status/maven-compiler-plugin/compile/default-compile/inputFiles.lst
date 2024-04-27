@@ -1,0 +1,17 @@
+/home/nicolasmartins/Documents/projects/java-error-management/src/main/java/com/test/errormanagement/exception/notfound/UserNotFoundException.java
+/home/nicolasmartins/Documents/projects/java-error-management/src/main/java/com/test/errormanagement/controller/advice/ErrorEnvelope.java
+/home/nicolasmartins/Documents/projects/java-error-management/src/main/java/com/test/errormanagement/constant/ExceptionMessageConstant.java
+/home/nicolasmartins/Documents/projects/java-error-management/src/main/java/com/test/errormanagement/core/entity/User.java
+/home/nicolasmartins/Documents/projects/java-error-management/src/main/java/com/test/errormanagement/ErrormanagementApplication.java
+/home/nicolasmartins/Documents/projects/java-error-management/src/main/java/com/test/errormanagement/core/bean/UserBean.java
+/home/nicolasmartins/Documents/projects/java-error-management/src/main/java/com/test/errormanagement/exception/notfound/CustomNotFoundException.java
+/home/nicolasmartins/Documents/projects/java-error-management/src/main/java/com/test/errormanagement/exception/notfound/EntityNotFoundException.java
+/home/nicolasmartins/Documents/projects/java-error-management/src/main/java/com/test/errormanagement/exception/unauthorized/UnauthorizedActionException.java
+/home/nicolasmartins/Documents/projects/java-error-management/src/main/java/com/test/errormanagement/constant/UrlConstant.java
+/home/nicolasmartins/Documents/projects/java-error-management/src/main/java/com/test/errormanagement/controller/UserController.java
+/home/nicolasmartins/Documents/projects/java-error-management/src/main/java/com/test/errormanagement/core/mapper/UserMapper.java
+/home/nicolasmartins/Documents/projects/java-error-management/src/main/java/com/test/errormanagement/exception/unauthorized/CustomUnauthorizedException.java
+/home/nicolasmartins/Documents/projects/java-error-management/src/main/java/com/test/errormanagement/service/UserService.java
+/home/nicolasmartins/Documents/projects/java-error-management/src/main/java/com/test/errormanagement/controller/advice/ControllerAdvice.java
+/home/nicolasmartins/Documents/projects/java-error-management/src/main/java/com/test/errormanagement/exception/CustomException.java
+/home/nicolasmartins/Documents/projects/java-error-management/src/main/java/com/test/errormanagement/persistence/repository/UserRepository.java

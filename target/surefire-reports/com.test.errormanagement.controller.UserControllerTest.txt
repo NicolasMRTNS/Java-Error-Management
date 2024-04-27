@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: com.test.errormanagement.controller.UserControllerTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.471 s <<< FAILURE! -- in com.test.errormanagement.controller.UserControllerTest
+com.test.errormanagement.controller.UserControllerTest.getUserSuccessTest -- Time elapsed: 0.006 s <<< ERROR!
+java.lang.NoClassDefFoundError: jakarta/servlet/http/HttpSession
+	at org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get(MockMvcRequestBuilders.java:56)
+	at com.test.errormanagement.controller.UserControllerTest.getUserSuccessTest(UserControllerTest.java:20)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.lang.ClassNotFoundException: jakarta.servlet.http.HttpSession
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+	... 5 more
+

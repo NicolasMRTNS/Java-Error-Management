@@ -2,7 +2,9 @@ package com.test.errormanagement.core.mapper;
 
 import com.test.errormanagement.core.bean.UserBean;
 import com.test.errormanagement.core.entity.User;
+import org.springframework.stereotype.Component;
 
+@Component
 public interface UserMapper {
     default UserBean toBean(User user) {
         UserBean bean = new UserBean();
